@@ -6,6 +6,25 @@
 .margin{
     margin: 0px 100px;
 }
+.primary-btn{
+    width: 197px;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+border-radius: 12px;
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
 /* nav section */
 
 nav{
@@ -79,14 +98,48 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+/* banner-section */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.banner-div{
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 500;
+    
+    letter-spacing: 0%;
+    text-align: left;
+}
+.span-1{
+    color:  rgb(254, 163, 1);
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 768px){
     body{
         margin: 0px;
         padding: 10px;
     }
+    nav{
+        margin: 3px;
+    }
     .nav-div-1{
        display: flex;
-       align-items: start;
+       
+       justify-content: space-between;
+    }
+    .school{
+        display: none;
     }
     .nav-div-2 {
         display: none;

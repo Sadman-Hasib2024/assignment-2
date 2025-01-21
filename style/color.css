@@ -118,34 +118,36 @@ header{
 .span-1{
     color:  rgb(254, 163, 1);
 }
+.span-2{
+    color:  rgb(1, 172, 253);;
+}
 
 
 
 
 
-
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 576px){
     body{
         margin: 0px;
         padding: 10px;
     }
-    nav{
+    .margin{
         margin: 3px;
     }
     .nav-div-1{
        display: flex;
-       
        justify-content: space-between;
-    }
-    .school{
-        display: none;
+       margin: 5px;
+
     }
     .nav-div-2 {
         display: none;
     }
     .nav-div-3 {
         display: none;
+    }
+    .school{
+        display:none;
     }
 
 }

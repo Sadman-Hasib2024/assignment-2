@@ -3,4 +3,79 @@
 .display-flex{
     display: flex;
 }
+.margin{
+    margin: 0px 60px;
+}
 /* nav section */
+
+nav{
+  justify-content: space-between;
+}
+.nav-div-1{
+   gap: 10px; 
+}
+.nav-div-2{
+    
+}
+.nav-list{
+    gap: 20px;
+}
+.nav-list-item-1{
+    list-style: none;
+    color: rgb(254, 163, 1);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav-list-item-2{
+    list-style: none;
+    color: rgb(1, 172, 253);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav-list-item-3{
+    list-style: none;
+    color: rgb(5, 212, 223);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav-list-item-4{
+    list-style: none;
+    color: rgb(93, 88, 239);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav-div-3 button{
+    width: 197px;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+border-radius: 12px;
+background: rgb(254, 163, 1);
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}

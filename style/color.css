@@ -107,6 +107,16 @@ nav {
     letter-spacing: 0%;
     text-align: left;
 }
+.nav-div-icon{
+    display:  none;
+}
+.marquee {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 /* banner-section */
 
@@ -265,11 +275,38 @@ main{
     text-align: center;
     text-decoration: none;
 }
+.curri-icon-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    position: relative;
+}
+.less-than{
+display: flex;
+width: 60px;
+height: 60px;
+border-radius: 30px;
+background: rgb(254, 163, 1);
+align-items: center;
+justify-content: center;
+
+}
+
+.greater-than{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    align-items: center;
+    justify-content: center;
+}
 
 /* story section */
 .story{
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-    margin-top: 60px;
+    
     text-align: center;
     justify-content: center;
 }
@@ -281,6 +318,8 @@ font-weight: 700;
 line-height: 57.5px;
 letter-spacing: 0%;
 text-align: center;
+margin-top: 60px;
+margin-bottom: 0px;
 }
 .story-card{
     display: flex;
@@ -298,8 +337,6 @@ text-align: center;
     display: flex;
     flex-direction: column;
     
-    
-    
 }
 .story-img img {
     border-radius: 16px 16px 0px 0px;
@@ -314,7 +351,8 @@ text-align: center;
 }
 .story-div-1{
 border-radius: 16px;
-background: rgb(255, 255, 255);position: relative;
+background: rgb(255, 255, 255);
+position: relative;
 width: 540.27px;
 height: 860px;
 margin-right: 20px;
@@ -424,6 +462,109 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
 }
+/* footer section */
+.footer {
+    background-color: #00aaff;
+    color: white;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo and Description */
+.footer-container{
+    padding: 120px;
+}
+.footer-logo-description {
+    max-width: 300px;
+}
+
+.logo-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.footer-title {
+
+    margin: 0;
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 42.14px;
+font-weight: 700;
+line-height: 39.51px;
+letter-spacing: 0%;
+text-align: left;
+    
+}
+
+.footer-description {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+/* Links Section */
+.footer-links {
+    max-width: 200px;
+}
+
+.footer-heading {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons Section */
+.footer-social {
+    max-width: 200px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: auto;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -445,13 +586,21 @@ text-align: center;
 
     .nav-div-2 {
         display: none;
+        
     }
 
     .nav-div-3 {
         display: none;
     }
 
+    .nav-div-icon{
+        display: block;
+    }
+
     .school {
+        display: none;
+    }
+    .marquee {
         display: none;
     }
 
@@ -481,6 +630,9 @@ text-align: center;
         width: 300px;
         width: 500px;
     }
+    .curri-icon-div{
+        display: none;
+    }
 /* story section responsive */
 .story {
     padding: 10px;
@@ -489,7 +641,7 @@ text-align: center;
 .story-head {
     font-size: 1.5rem;
     margin-top:50px ;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .story-div-1{
@@ -527,6 +679,29 @@ text-align: center;
 .story-btn-6 {
     padding: 8px 16px;
     font-size: 1rem;
+}
+
+/* footer responsive section */
+
+.footer-container {
+    flex-direction: column;
+    align-items: left; 
+    text-align: left;
+    padding: 20px;
+}
+
+.footer-logo-description,
+.footer-links,
+.footer-social {
+    max-width: 100%;
+}
+
+.footer-description {
+    font-size: 0.85rem;
+}
+
+.social-icons {
+    justify-content: left;
 }
 
 

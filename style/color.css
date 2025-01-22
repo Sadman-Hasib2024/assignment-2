@@ -149,5 +149,16 @@ header{
     .school{
         display:none;
     }
+    /* bannaer responsive */
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-div{
+       text-align: center;
+       justify-items: center;
+       
+    }
+    
 
 }

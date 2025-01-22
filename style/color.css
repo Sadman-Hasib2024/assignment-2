@@ -111,8 +111,8 @@ nav {
     display:  none;
 }
 .marquee {
-    background-color: #007BFF;
-    color: white;
+    background-color: #bec6cf;
+    color: rgb(22, 13, 196);
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
